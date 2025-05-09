@@ -1,0 +1,24 @@
+{
+  "name": "event-webhook-node-ts",
+  "version": "1.0.0",
+  "description": "Sistema orientado a eventos com webhooks configuráveis",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "ts-node": "^10.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.5.2"
+  },
+  "author": "Seu Nome",
+  "license": "MIT"
+}
