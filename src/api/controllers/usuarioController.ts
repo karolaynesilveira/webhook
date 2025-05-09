@@ -14,7 +14,7 @@ export function criarUsuario(req: Request, res: Response): void {
     
     const novoUsuario = createUser(userData);
     
-    dispatch(USUARIO_CRIADO, userData);
+    dispatch(USUARIO_CRIADO, novoUsuario);
 
     console.log(`[API] Novo usuário criado com status pendente:`, novoUsuario);
         
